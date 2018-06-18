@@ -55,6 +55,7 @@ dependencies {
     runtime "com.bertramlabs.plugins:asset-pipeline-grails:2.14.2"
     //uncomment to use MySQL
     //runtime 'mysql:mysql-connector-java:5.1.40'
+    runtime "postgresql:postgresql:9.1-901.jdbc4"
     testCompile "org.grails:grails-gorm-testing-support"
     testCompile "org.grails.plugins:geb"
     testCompile "org.grails:grails-web-testing-support"
